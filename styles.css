@@ -30,7 +30,7 @@ body {
   
   .center {
   float: left;
-   width: 55%;
+   width: 50%;
    height: 130vh;
    background-color: white;
   padding: 20px;
@@ -40,7 +40,7 @@ body {
   
   .right {
     float: right;
-   width: 20%;
+   width: 15%;
   background-color: #c8e6c9; 
    padding: 20px;
   }
