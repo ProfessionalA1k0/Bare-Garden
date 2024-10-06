@@ -1,0 +1,126 @@
+body {
+   margin: 0;
+   font-family: Georgia, sans-serif;
+   background-color: #e8f5e9; 
+  }
+  
+  .container {
+   width: 100%;
+  overflow: hidden; /* Відключаємо переповнення елементів */
+  }
+  
+  .header {
+  background-color: #a5d6a7; 
+   padding: 20px;
+  font-size: 2rem;
+   font-weight: bold;
+   color: #388e3c;
+   border-bottom: 2px solid #388e3c; 
+  }
+  
+  .left {
+  float: left;
+  width: 15%; /* Збільшено ширину для меню */
+  
+   background-color: #c8e6c9; 
+   padding: 20px;
+   border-right: 2px solid #388e3c; 
+   margin-bottom: 20px;
+  }
+  
+  .center {
+  float: left;
+   width: 59%;
+   height: 130vh;
+   background-color: white;
+  padding: 20px;
+   border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .right {
+    float: right;
+   width: 20%;
+  background-color: #c8e6c9; 
+   padding: 20px;
+  }
+  
+  .footer {
+    display: flex; /* Використання flexbox для горизонтального вирівнювання */
+    justify-content: space-between; /* Вирівнює елементи на протилежних краях */
+    padding: 20px;
+    background-color: #88db8c /* Задайте фон для footer */
+}
+  
+ 
+  .footer-contact, .footer-hours {
+    flex: 1; /* Дозволяє елементам займати однакову ширину */
+}
+
+.footer-hours {
+    text-align: right; /* Вирівнює текст графіка роботи праворуч */
+}
+  
+  .center-footer {
+    clear: both;
+   text-align: center;
+   padding: 10px;
+   background-color: #edf2db;
+   text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .center-footer a {
+   margin: 0 10px;
+   font-size: 24px;
+  color: #388e3c; 
+  text-decoration: none;
+  }
+  
+  nav {
+    height: 100vh; /* Панель буде займати всю висоту екрану */
+    padding: 20px; /* Відступи від країв панелі */
+    background-color: #d1e7d7; /* Колір фону панелі */
+}
+  nav ul {
+    list-style: none; /* Прибирає маркери списку */
+    padding: 0;
+    margin: 0;
+}
+  
+nav ul li {
+  padding: 15px 10px; 
+  margin-bottom: 10px; 
+  background-color: #b0d4ba; 
+  border-radius: 5px; 
+  text-align: left; 
+}
+  
+  nav ul li a {
+ text-decoration: none;
+   color: #388e3c; 
+  font-weight: bold; 
+   padding: 10px;
+   display: block; 
+  }
+  
+  nav ul li:hover {
+    background-color: #a1c9ad; 
+}
+  
+  .right img {
+   max-width: 100%; 
+   height: auto;
+   border-radius: 8px; 
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .read-more {
+  display: inline-block;
+   margin-top: 20px;
+   padding: 10px 15px;
+  background-color: #388e3c;
+   color: white;
+  text-decoration: none;
+   border-radius: 5px;
+  }
